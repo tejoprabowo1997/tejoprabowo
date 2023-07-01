@@ -24,11 +24,11 @@ export default defineNuxtConfig({
         },
         {
           name: 'og:image',
-          content: 'https://th.bing.com/th/id/OIP.ry0FnYNVVc6OOFGJhoPRKAHaI0?pid=ImgDet&rs=1',
+          content: 'https://tejoprabowo.vercel.app/tejo.jpeg',
         },
         {
           name: 'og:url',
-          content: 'https://th.bing.com/th/id/OIP.ry0FnYNVVc6OOFGJhoPRKAHaI0?pid=ImgDet&rs=1',
+          content: 'https://tejoprabowo.vercel.app/tejo.jpeg',
         },
         {
           name: 'twitter:title',
@@ -40,7 +40,7 @@ export default defineNuxtConfig({
         },
         {
           name: 'twitter:image',
-          content: 'https://th.bing.com/th/id/OIP.ry0FnYNVVc6OOFGJhoPRKAHaI0?pid=ImgDet&rs=1',
+          content: 'https://tejoprabowo.vercel.app/tejo.jpeg',
         },
         {
           name: 'twitter:card',
