@@ -9,20 +9,21 @@ definePageMeta({
     <div class="row items-center justify-center bg-cover">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <q-list bordered class="rounded-borders bg-red-2">
+          <!--LANGUAGES-->
           <q-expansion-item>
             <template v-slot:header>
               <q-item-section avatar>
                 <q-avatar icon="language" color="secondary" text-color="white" />
               </q-item-section>
 
-              <q-item-section> Languages </q-item-section>
+              <q-item-section> LANGUAGES </q-item-section>
             </template>
 
             <q-card>
               <q-card-section>
                 <q-list bordered class="rounded-borders">
                   <q-item>
-                    <q-item-section>English</q-item-section>
+                    <q-item-section>ENGLISH</q-item-section>
                     <q-item-section side>
                       <div class="row items-center">
                         <q-icon name="star" color="red" size="17" />
@@ -30,15 +31,17 @@ definePageMeta({
                         <q-icon name="star" color="red" size="17" />
                         <q-icon name="star" color="red" size="17" />
                         <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
                       </div>
                     </q-item-section>
-                    <q-item-section side class="text-caption">5/10</q-item-section>
+                    <q-item-section side class="text-caption">7/10</q-item-section>
                   </q-item>
 
                   <q-separator />
 
                   <q-item>
-                    <q-item-section>Indonesian</q-item-section>
+                    <q-item-section>INDONESIA</q-item-section>
                     <q-item-section side>
                       <div class="row items-center">
                         <q-icon name="star" color="red" size="17" />
@@ -49,9 +52,10 @@ definePageMeta({
                         <q-icon name="star" color="red" size="17" />
                         <q-icon name="star" color="red" size="17" />
                         <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
                       </div>
                     </q-item-section>
-                    <q-item-section side class="text-caption">8/10</q-item-section>
+                    <q-item-section side class="text-caption">9/10</q-item-section>
                   </q-item>
                 </q-list>
               </q-card-section>
@@ -60,13 +64,14 @@ definePageMeta({
 
           <q-separator />
 
+          <!--PROGRAMMING LANGUAGES-->
           <q-expansion-item>
             <template v-slot:header>
               <q-item-section avatar>
                 <q-avatar icon="code" color="secondary" text-color="white" />
               </q-item-section>
 
-              <q-item-section> Programming Language </q-item-section>
+              <q-item-section> PROGRAMMING LANGUAGES </q-item-section>
             </template>
 
             <q-card>
@@ -221,7 +226,7 @@ definePageMeta({
                         <q-icon name="star" color="red" size="17" />
                       </div>
                     </q-item-section>
-                    <q-item-section side class="text-caption">7/10</q-item-section>
+                    <q-item-section side class="text-caption">9/10</q-item-section>
                   </q-item>
                 </q-list>
               </q-card-section>
@@ -230,6 +235,7 @@ definePageMeta({
 
           <q-separator />
 
+          <!--CSS FRAMEWORK / UI COMPONENT-->
           <q-expansion-item>
             <template v-slot:header>
               <q-item-section avatar>
@@ -357,26 +363,6 @@ definePageMeta({
                   <q-separator />
 
                   <q-item>
-                    <q-item-section>JAVASCRIPT</q-item-section>
-                    <q-item-section side>
-                      <div class="row items-center">
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                      </div>
-                    </q-item-section>
-                    <q-item-section side class="text-caption">9/10</q-item-section>
-                  </q-item>
-
-                  <q-separator />
-
-                  <q-item>
                     <q-item-section>ANT DESIGN</q-item-section>
                     <q-item-section side>
                       <div class="row items-center">
@@ -395,10 +381,11 @@ definePageMeta({
 
           <q-separator />
 
+          <!--NODEJS BACKEND FRAMEWORK-->
           <q-expansion-item>
             <template v-slot:header>
               <q-item-section avatar>
-                <q-avatar icon="storefront" color="secondary" text-color="white" />
+                <q-avatar icon="wysiwyg" color="secondary" text-color="white" />
               </q-item-section>
 
               <q-item-section> NODEJS BACKEND FRAMEWORK </q-item-section>
@@ -505,10 +492,11 @@ definePageMeta({
 
           <q-separator />
 
+          <!--NODEJS FRONTEND FRAMEWORK-->
           <q-expansion-item>
             <template v-slot:header>
               <q-item-section avatar>
-                <q-avatar icon="storefront" color="secondary" text-color="white" />
+                <q-avatar icon="door_front" color="secondary" text-color="white" />
               </q-item-section>
 
               <q-item-section> NODEJS FRONTEND FRAMEWORK </q-item-section>
@@ -602,30 +590,28 @@ definePageMeta({
                     </q-item-section>
                     <q-item-section side class="text-caption">8/10</q-item-section>
                   </q-item>
+                </q-list>
+              </q-card-section>
+            </q-card>
+          </q-expansion-item>
 
-                  <q-separator />
+          <q-separator />
 
+          <!--PHP FRAMEWORK-->
+          <q-expansion-item>
+            <template v-slot:header>
+              <q-item-section avatar>
+                <q-avatar icon="php" color="secondary" text-color="white" />
+              </q-item-section>
+
+              <q-item-section> PHP FRAMEWORK </q-item-section>
+            </template>
+
+            <q-card>
+              <q-card-section>
+                <q-list bordered class="rounded-borders">
                   <q-item>
-                    <q-item-section>VUETIFY</q-item-section>
-                    <q-item-section side>
-                      <div class="row items-center">
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                        <q-icon name="star" color="red" size="17" />
-                      </div>
-                    </q-item-section>
-                    <q-item-section side class="text-caption">8/10</q-item-section>
-                  </q-item>
-
-                  <q-separator />
-
-                  <q-item>
-                    <q-item-section>JAVASCRIPT</q-item-section>
+                    <q-item-section>LARAVEL</q-item-section>
                     <q-item-section side>
                       <div class="row items-center">
                         <q-icon name="star" color="red" size="17" />
@@ -645,7 +631,27 @@ definePageMeta({
                   <q-separator />
 
                   <q-item>
-                    <q-item-section>ANT DESIGN</q-item-section>
+                    <q-item-section>LUMEN</q-item-section>
+                    <q-item-section side>
+                      <div class="row items-center">
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                      </div>
+                    </q-item-section>
+                    <q-item-section side class="text-caption">9/10</q-item-section>
+                  </q-item>
+
+                  <q-separator />
+
+                  <q-item>
+                    <q-item-section>YII2</q-item-section>
                     <q-item-section side>
                       <div class="row items-center">
                         <q-icon name="star" color="red" size="17" />
@@ -655,6 +661,59 @@ definePageMeta({
                       </div>
                     </q-item-section>
                     <q-item-section side class="text-caption">4/10</q-item-section>
+                  </q-item>
+
+                  <q-separator />
+
+                  <q-item>
+                    <q-item-section>PAHLCON</q-item-section>
+                    <q-item-section side>
+                      <div class="row items-center">
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                      </div>
+                    </q-item-section>
+                    <q-item-section side class="text-caption">6/10</q-item-section>
+                  </q-item>
+
+                  <q-separator />
+
+                  <q-item>
+                    <q-item-section>SYMFONY</q-item-section>
+                    <q-item-section side>
+                      <div class="row items-center">
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                      </div>
+                    </q-item-section>
+                    <q-item-section side class="text-caption">6/10</q-item-section>
+                  </q-item>
+
+                  <q-separator />
+
+                  <q-item>
+                    <q-item-section>CODEIGNITER 2/3/4</q-item-section>
+                    <q-item-section side>
+                      <div class="row items-center">
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                        <q-icon name="star" color="red" size="17" />
+                      </div>
+                    </q-item-section>
+                    <q-item-section side class="text-caption">8/10</q-item-section>
                   </q-item>
                 </q-list>
               </q-card-section>
