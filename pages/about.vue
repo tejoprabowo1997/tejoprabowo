@@ -10,23 +10,30 @@ definePageMeta({
       <q-card flat class="bg-transparent">
         <q-card-section>
           <p>
-            Hello, my name is Tejo Prabowo. I am a web developer with 6 years of experience in the field. I am
-            passionate about creating visually appealing and functional websites that provide great user experiences.
+            My name is Tejo Prabowo, and I have a strong passion for programming and web development. I was born on
+            April 2, 1997, in Tangerang, and I am currently based in the same city. With several years of experience as
+            a programmer, starting in 2017 and continuing to the present day, I have honed my skills in web development.
           </p>
           <p>
-            I have a strong background in HTML, CSS, and JavaScript, and I am proficient in various frameworks and
-            libraries such as React and Vue.js. Throughout my career, I have worked on a wide range of projects,
-            including e-commerce websites, portfolio websites, and web applications.
+            Throughout my journey as a programmer, I have gained a deep understanding of various web technologies and
+            frameworks. I am proficient in HTML, CSS, and JavaScript, which enable me to create visually appealing and
+            interactive web applications. Additionally, I have expertise in utilizing popular web frameworks, such as
+            Laravel and CodeIgniter, to build robust and scalable websites.
           </p>
           <p>
-            My goal is to continuously improve my skills and stay updated with the latest web development trends and
-            technologies. I believe in clean and efficient code, attention to detail, and delivering high-quality
-            results.
+            I take pride in my ability to solve complex problems and write clean, efficient, and maintainable code. I am
+            detail-oriented and strive to deliver high-quality work that meets client requirements and exceeds
+            expectations. Collaborating with cross-functional teams and staying up-to-date with the latest industry
+            trends are also aspects that I value and actively engage in.
           </p>
           <p>
-            In addition to my technical skills, I am a great team player and have experience collaborating with
-            cross-functional teams to achieve project goals. I am a quick learner, adaptable, and always ready to take
-            on new challenges.
+            Apart from my technical skills, I possess excellent communication and teamwork abilities, which contribute
+            to seamless collaboration within projects. I enjoy working in a dynamic and challenging environment, where I
+            can continuously learn and enhance my skills.
+          </p>
+          <p>
+            Overall, I am a dedicated and passionate programmer with a focus on web development. I am excited about new
+            opportunities to contribute my expertise and create innovative solutions that make a positive impact.
           </p>
           <p>
             Thank you for visiting my CV website. If you have any questions or would like to discuss potential
